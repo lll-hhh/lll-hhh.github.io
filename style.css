@@ -37,7 +37,9 @@ svg.icon { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-w
 nav { display: flex; gap: 28px; }
 nav a { color: var(--muted); font-size: 13px; font-weight: 550; }
 nav a:hover { color: var(--blue); text-decoration: none; }
-.nav-signature { font-size: 28px; line-height: 1.2; white-space: nowrap; }
+.nav-signature { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 10px; background: transparent; font: inherit; font-size: 28px; line-height: 1.2; white-space: nowrap; cursor: pointer; transition: background .16s, transform .16s; }
+.nav-signature:hover { background: var(--soft); transform: translateY(-1px); }
+.nav-signature:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
 .page { width: min(1120px, calc(100% - 64px)); margin: 32px auto 0; }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 8px 30px rgba(0,0,0,.16); }
 .profile-panel { overflow: hidden; margin-bottom: 20px; }

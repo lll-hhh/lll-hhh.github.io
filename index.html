@@ -28,7 +28,7 @@
     <div class="nav-container">
       <a class="brand" href="#top">Hao Liu</a>
       <nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#publications">Selected Publications</a><a href="#education">Education</a></nav>
-      <span class="nav-signature" role="img" aria-label="Mouse">🐭</span>
+      <button class="nav-signature" type="button" aria-label="Current animal: mouse. Switch to cat." title="Switch animal">🐭</button>
     </div>
   </header>
   <main class="page">
@@ -139,6 +139,23 @@
     </section>
     <footer><span>© <span id="year">2026</span> Hao Liu</span><a href="#top">Back to top ↑</a></footer>
   </main>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const animalButton = document.querySelector('.nav-signature');
+    const animals = [
+      { emoji: '🐭', name: 'mouse' },
+      { emoji: '🐱', name: 'cat' },
+      { emoji: '🐶', name: 'dog' },
+      { emoji: '🐰', name: 'rabbit' }
+    ];
+    let animalIndex = 0;
+    animalButton.addEventListener('click', () => {
+      animalIndex = (animalIndex + 1) % animals.length;
+      const current = animals[animalIndex];
+      const next = animals[(animalIndex + 1) % animals.length];
+      animalButton.textContent = current.emoji;
+      animalButton.setAttribute('aria-label', `Current animal: ${current.name}. Switch to ${next.name}.`);
+    });
+  </script>
 </body>
 </html>

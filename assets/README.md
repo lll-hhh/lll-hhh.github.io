@@ -1,6 +1,6 @@
 University seals are used solely to identify education affiliations.
 
-- Tsinghua University: https://www.tsinghua.edu.cn/image/logo.png (the circular seal cropped from the university's transparent white wordmark, trimmed to its visible bounds and rendered in purple).
+- Tsinghua University: https://cdn.urongda.com/images/normal/medium/tsinghua-university-logo-1024px.png (high-resolution transparent purple seal, trimmed to its visible bounds; source listing: https://urongda.com/logos/4111010003).
 - Central South University: https://www.csu.edu.cn/zjzn/xxbs/xh.htm ; original transparent image: https://www.csu.edu.cn/__local/5/85/66/A8DA6D0E8DD76C7FDDB81792C28_F0410DE8_8BDF4.png .
 
 Original marks belong to their respective universities. Both PNG assets retain transparency; no background plate is added.
