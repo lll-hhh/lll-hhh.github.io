@@ -99,6 +99,10 @@ h2 { font-size: 23px; letter-spacing: -.6px; }
 .education-entry h3 { font-size: 13px; font-weight: 650; margin-bottom: 4px; }
 .education-entry h3 a { color: inherit; }
 .education-entry h3 a:hover { color: var(--blue); }
+.university-heading a { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+.university-seal { display: block; flex: 0 0 40px; width: 40px; height: 40px; object-fit: contain; }
+.csu-seal { filter: brightness(1.65); }
+.thu-seal { filter: brightness(1.5); }
 .education-entry p:not(.degree) { font-size: 11px; line-height: 1.8; color: var(--muted); margin-top: 3px; }
 .education-roles { margin: 8px 0 0; padding-left: 14px; font-size: 11px; line-height: 1.8; color: var(--muted); }
 .education-roles li::marker { color: var(--muted); }
