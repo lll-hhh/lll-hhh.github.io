@@ -7,4 +7,4 @@ Original marks belong to their respective universities. Both PNG assets retain t
 
 OpenEvolve logo: https://raw.githubusercontent.com/algorithmicsuperintelligence/openevolve/main/openevolve-logo.png (the main logo in the project's README). The mark belongs to its respective owner.
 
-LoopX overview: https://raw.githubusercontent.com/loopx-project/loopx/main/docs/assets/harness-neutral.en.svg (architecture illustration from the project README). Original artwork belongs to the LoopX project.
+LoopX preview: https://raw.githubusercontent.com/loopx-project/loopx/main/docs/assets/control-plane-board.en.svg (the second main illustration in the project README). Original artwork belongs to the LoopX project.
