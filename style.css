@@ -79,7 +79,8 @@ h2 { font-size: 23px; letter-spacing: -.6px; }
 .publication { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 26px; align-items: start; padding: 23px 0; border-bottom: 1px solid var(--line); }
 .paper-preview { display: block; margin-top: 3px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .paper-preview img { display: block; width: 100%; height: auto; }
-.project-logo { background: #fff; padding: 18px; }
+.project-logo { background: #fff; padding: 18px; display: grid; place-items: center; }
+.project-logo img { width: 160px; max-width: 100%; }
 .publication:first-child { padding-top: 2px; }
 .publication:last-child { border: 0; padding-bottom: 2px; }
 .venue { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin-bottom: 10px; }
