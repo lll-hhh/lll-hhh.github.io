@@ -78,11 +78,13 @@ h2 { font-size: 23px; letter-spacing: -.6px; }
 .news-highlight p { color: var(--text); }
 .news-highlight strong { color: var(--blue); }
 .news-list .news-neurips { color: #fff; }
-.publication { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 26px; align-items: start; padding: 23px 0; border-bottom: 1px solid var(--line); }
+.publication { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 26px; align-items: center; padding: 23px 0; border-bottom: 1px solid var(--line); }
 .paper-preview { display: block; margin-top: 3px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .paper-preview img { display: block; width: 100%; height: auto; }
 .project-logo { background: #fff; padding: 18px; display: grid; place-items: center; }
 .project-logo img { width: 110px; max-width: 100%; }
+.agentscope-preview { background: #fff; }
+.agentscope-preview img { width: 100%; height: auto; }
 .project-logo span { color: #25252c; font-size: 34px; line-height: 1; }
 .project-logo strong { margin-top: 7px; color: #25252c; font-size: 13px; }
 .deerflow-logo { background: #f4f5f7; }
@@ -160,7 +162,7 @@ footer a { color: var(--muted); }
   h2 { font-size: 21px; }
   .news-list li { grid-template-columns: 66px minmax(0,1fr); gap: 12px; font-size: 11px; padding: 8px 0; }
   .news-list time { font-size: 10px; }
-  .publication { grid-template-columns: 1fr; gap: 16px; padding: 18px 0; }
+  .publication { grid-template-columns: 1fr; gap: 16px; align-items: start; padding: 18px 0; }
   .paper-preview { width: 160px; max-width: 100%; }
   .venue { flex-direction: row; align-items: center; gap: 7px; padding: 0; }
   .venue > strong { font-size: 11px; }
