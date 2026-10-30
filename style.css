@@ -83,6 +83,11 @@ h2 { font-size: 23px; letter-spacing: -.6px; }
 .paper-preview img { display: block; width: 100%; height: auto; }
 .project-logo { background: #fff; padding: 18px; display: grid; place-items: center; }
 .project-logo img { width: 110px; max-width: 100%; }
+.project-logo span { color: #25252c; font-size: 34px; line-height: 1; }
+.project-logo strong { margin-top: 7px; color: #25252c; font-size: 13px; }
+.deerflow-logo { background: #f4f5f7; }
+.agentscope-logo { background: #f2f5ff; }
+.introduction > .opportunity { display: block; margin-top: 18px; padding: 12px 14px; border: 1px solid var(--success-line); border-radius: 9px; background: var(--success-bg); color: var(--success); font-size: 12px; line-height: 1.7; }
 .rank-badge { display: block; height: 20px; width: auto; }
 .introduction h1 { margin-bottom: 18px; }
 .publication:first-child { padding-top: 2px; }
