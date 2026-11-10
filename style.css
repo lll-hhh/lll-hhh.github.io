@@ -77,7 +77,7 @@ h2 { font-size: 23px; letter-spacing: -.6px; }
 .ccf-rank { color: var(--muted); font-size: .9em; white-space: nowrap; }
 .news-highlight p { color: var(--text); }
 .news-highlight strong { color: var(--blue); }
-.news-list .news-neurips { color: #fff; }
+.news-list .news-neurips, .news-list .news-kdd { color: #fff; }
 .publication { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 26px; align-items: center; padding: 19px 0; border-bottom: 1px solid var(--line); }
 .paper-preview { display: block; margin-top: 3px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .paper-preview img { display: block; width: 100%; height: auto; }
